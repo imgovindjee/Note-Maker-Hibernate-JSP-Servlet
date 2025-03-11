@@ -10,8 +10,8 @@
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/notemaker</property>
 
         <!--        username and password  -->
-        <property name="connection.username">root</property>
-        <property name="connection.password">$Govindjee123_</property>
+        <property name="connection.username">YOUR_DB_USERNAME</property>
+        <property name="connection.password">YOUR_DB_PASSWORD</property>
 
 <!--        SQL Dialect for MySQL-->
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
