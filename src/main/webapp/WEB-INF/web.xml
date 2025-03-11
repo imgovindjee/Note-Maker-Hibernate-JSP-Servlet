@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+
+<web-app
+    version="4.0"
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:javaee="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>SaveNoteServlet</servlet-name>
+    <display-name>SaveNoteServlet</display-name>
+    <description></description>
+    <servlet-class>com.servlets.SaveNoteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteNoteServlet</servlet-name>
+    <display-name>DeleteNoteServlet</display-name>
+    <description></description>
+    <servlet-class>com.servlets.DeleteNoteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateNoteServlet</servlet-name>
+    <display-name>UpdateNoteServlet</display-name>
+    <description></description>
+    <servlet-class>com.servlets.UpdateNoteServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>SaveNoteServlet</servlet-name>
+    <url-pattern>/SaveNoteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNoteServlet</servlet-name>
+    <url-pattern>/DeleteNoteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateNoteServlet</servlet-name>
+    <url-pattern>/UpdateNoteServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
